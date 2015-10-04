@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void setMessage(View view){
         Button buttonObj = (Button) view;
-        buttonObj.setBackgroundColor(Color.CYAN);
+        buttonObj.setBackgroundColor(Color.GREEN);
      String buttonText =   buttonObj.getText().toString();
 
          Toast.makeText(MainActivity.this, "This button will launch my "+buttonText, Toast.LENGTH_SHORT).show();
