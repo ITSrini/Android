@@ -1,0 +1,66 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="500dp"
+    android:orientation="vertical"
+      tools:context=".MainActivity"
+    >
+
+    <TextView android:text="@string/NanoDegreeHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="40dp"
+        android:textSize="24dp"
+        android:fontFamily=""
+        android:gravity="center_horizontal" />
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal"
+
+        android:gravity="center_horizontal">
+    <Button  android:id="@+id/SPOTIFY"
+         style="@style/NanoDegreeButtons"
+        android:text="@string/SPOTIFY"
+        android:layout_width="200dp"
+        android:layout_height="45dp"
+        android:onClick="setMessage" />
+        <Button
+            android:id="@+id/SCOREAPP"
+            android:text="@string/SCOREAPP"
+             style="@style/NanoDegreeButtons"
+            android:layout_width="200dp"
+            android:layout_height="45dp"
+            android:onClick="setMessage" />
+        <Button  android:id="@+id/LIBAPP"
+            android:text="@string/LIBAPP"
+             style="@style/NanoDegreeButtons"
+            android:layout_width="200dp"
+            android:layout_height="45dp"
+            android:onClick="setMessage" />
+        <Button  android:id="@+id/BIB"
+
+            android:text="@string/BIB"
+             style="@style/NanoDegreeButtons"
+            android:layout_width="200dp"
+            android:layout_height="45dp"
+            android:onClick="setMessage" />
+        <Button
+            android:id="@+id/XYZ"
+            android:text="@string/XYZ"
+             style="@style/NanoDegreeButtons"
+            android:layout_width="200dp"
+            android:layout_height="45dp"
+            android:onClick="setMessage" />
+        <Button
+            android:id="@+id/MYOWNAPP1"
+            android:text="@string/MYOWNAPP1"
+            style="@style/NanoDegreeButtons"
+            android:layout_width="200dp"
+            android:layout_height="45dp"
+            android:onClick="setMessage" />
+
+    </LinearLayout>
+</LinearLayout>
